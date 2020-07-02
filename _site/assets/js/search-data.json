@@ -24,6 +24,12 @@
     "relUrl": "/docs/part%20I/chapter01.html"
   },"4": {
     "doc": "Part I - Principles & Elementary Applications",
+    "title": "Principles &amp; Elementary Applications",
+    "content": "The first part of the book is concerned with principles &amp; elementary applications of probability theory. ",
+    "url": "http://localhost:4000/docs/part%20I/#principles--elementary-applications",
+    "relUrl": "/docs/part%20I/#principles--elementary-applications"
+  },"5": {
+    "doc": "Part I - Principles & Elementary Applications",
     "title": "Part I - Principles & Elementary Applications",
     "content": " ",
     "url": "http://localhost:4000/docs/part%20I/",

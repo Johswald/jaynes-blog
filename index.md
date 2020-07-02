@@ -4,9 +4,7 @@
 
 layout: default
 ---
-Welcome to My Home Page, does it work?
+# Jaynes' Reading Club
+This is a blog for the reading club on Jaynes' Probability Theory.
 
-{% assign date = '2020-04-13T10:20:00Z' %}
-
-- Original date - {{ date }}
-- With timeago filter - {{ date | timeago }}
+<img src="https://images-na.ssl-images-amazon.com/images/I/61WUudVhSkL.jpg" alt="jaynes" width="200"/>

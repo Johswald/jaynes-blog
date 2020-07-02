@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
+title: Jaynes' Club
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   A blog for the reading club on Jayne's Probability Theory
@@ -32,6 +32,34 @@ github_username:  smonsays
 theme: "just-the-docs"
 plugins:
   - jekyll-feed
+markdown: kramdown
+mathjax: true
+  
+  
+# Just-the-docs Setings
+logo: "/assets/images/logo.svg"
+aux_links:
+  "E.T. Jaynes - Probability Theory":
+    - "https://www.cambridge.org/core/books/probability-theory/9CA08E224FF30123304E6D8935CF1A99"
+heading_anchors: true
+
+
+# Footer content 
+# appears at the bottom of every page's main content
+footer_content: "Distributed by a <a href=\"https://github.com/smonsays/jaynes-blog/blob/master/LICENSE\">CC BY-SA 4.0 License.</a>"
+
+# Footer last edited timestamp
+last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
+last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
+
+# Footer "Edit this page on GitHub" link text
+gh_edit_link: true # show or hide edit this page link
+gh_edit_link_text: "Edit this page on GitHub."
+gh_edit_repository: "https://github.com/pmarsceill/just-the-docs" # the github URL for your repo
+gh_edit_branch: "master" # the branch that your docs is served from
+gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
+
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
